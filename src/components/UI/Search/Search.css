@@ -1,0 +1,25 @@
+.search-container{
+  margin-top: 8px;
+  border: 1px solid #dedede;
+  box-shadow: 1px 1px 6px 1px #b3b3b3;
+}
+.search-input {
+    color: #eaebed ;
+    border: none;
+    background-color: #f1f3f4;
+    border-radius: 0.2em;
+    width: 450px;
+    height: 50px;
+    padding: 8px;
+    font-size: medium;    
+  }
+.search-input:focus{
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-bottom: 2px solid darkgrey;
+}
+  .search-input::-webkit-search-cancel-button{
+    position:relative;
+    right:20px;    
+}
